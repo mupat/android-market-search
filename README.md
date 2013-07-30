@@ -24,7 +24,7 @@ PORT=3333 coffee server.coffee
 ```
 
 
-## Usage
+## Usage with bundleId
 If the application is up and running you can use by requesting the play store with a specific ```bundleId```
 
 ```
@@ -72,6 +72,7 @@ content_rating: "Low Maturity"
 }
 ```
 
+## Usage with bundleId and country
 By default the request is to the play store is in englisch. If you like to change it, provide a second parameter.
 
 ```
