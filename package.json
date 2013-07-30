@@ -1,0 +1,13 @@
+{
+  "name": "android-market-search",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Mupat<dev@mupat.net>",
+  "description": "A simple screenscraper for android play market. You can search be using the bundle identifier of the app.",
+  "dependencies": {
+    "restify": "*",
+    "coffee-script": "*",
+    "node.io": "*",
+    "cheerio": "*"
+  }
+}
