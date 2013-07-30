@@ -1,11 +1,10 @@
 # android-market-search
 
-
 Simple wrapper for android play market to search for app informations in API way. Like the itunes search api.
 
 ## Disclaimer
 
-This is not an official google API. I am not afiliated with Google in any way and am not responsible of any damage that could be done with it. Use it at your own risk.
+**This is not an official google API. I am not afiliated with Google in any way and am not responsible of any damage that could be done with it. Use it at your own risk.**
 
 ## Installation
 For using it you need to start on your own server or local machine, like a normal node application.
@@ -73,7 +72,7 @@ content_rating: "Low Maturity"
 ```
 
 ## Usage with bundleId and country
-By default the request is to the play store is in englisch. If you like to change it, provide a second parameter.
+By default the request to the play store is in english. If you like to change it, provide a second parameter.
 
 ```
 <domain>:<port>/?bundleId=<string>&lang=<shortcode>
