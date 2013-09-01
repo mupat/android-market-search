@@ -118,3 +118,13 @@ os_version: "2.2 oder höher",
 content_rating: "Stufe 3 - Niedrig"
 }
 ```
+
+## troubleshooting
+
+error
+```
+"error by requesting the android market: Error: 140735259738496:error:0607907F:digital envelope routines:EVP_PKEY_get1_RSA:expecting an rsa key:../deps/openssl/openssl/crypto/evp/p_lib.c:288:\n"
+```
+
+solution
+- install node version > 0.10
